@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/usb_f_ecm.ko := arm-poky-linux-gnueabi-ld -EL -r  -T /second_extend/yocto_file/linux_yocto/scripts/module-common.lds --build-id  -o drivers/usb/gadget/usb_f_ecm.ko drivers/usb/gadget/usb_f_ecm.o drivers/usb/gadget/usb_f_ecm.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/u_ether.ko := arm-poky-linux-gnueabi-ld -EL -r  -T /second_extend/yocto_file/linux_yocto/scripts/module-common.lds --build-id  -o drivers/usb/gadget/u_ether.ko drivers/usb/gadget/u_ether.o drivers/usb/gadget/u_ether.mod.o

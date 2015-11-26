@@ -1,0 +1,1 @@
+cmd_drivers/i2c/algos/i2c-algo-pca.ko := arm-poky-linux-gnueabi-ld -EL -r  -T /second_extend/yocto_file/linux_yocto/scripts/module-common.lds --build-id  -o drivers/i2c/algos/i2c-algo-pca.ko drivers/i2c/algos/i2c-algo-pca.o drivers/i2c/algos/i2c-algo-pca.mod.o

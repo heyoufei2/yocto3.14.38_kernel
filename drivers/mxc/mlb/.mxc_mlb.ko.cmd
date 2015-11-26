@@ -1,0 +1,1 @@
+cmd_drivers/mxc/mlb/mxc_mlb.ko := arm-poky-linux-gnueabi-ld -EL -r  -T /second_extend/yocto_file/linux_yocto/scripts/module-common.lds --build-id  -o drivers/mxc/mlb/mxc_mlb.ko drivers/mxc/mlb/mxc_mlb.o drivers/mxc/mlb/mxc_mlb.mod.o
